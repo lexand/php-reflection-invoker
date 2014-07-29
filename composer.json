@@ -1,0 +1,32 @@
+{
+    "name": "reflection/invoker",
+    "description": "Invoke protected/private methods",
+    "license": "MIT",
+    "keywords": [
+        "reflection",
+        "method",
+        "invoke"
+    ],
+    "homepage": "https://github.com/lexand/php-reflection-invoker",
+    "authors": [
+        {
+            "name": "Alexandr Dorogikh",
+            "email": "dorogikh.alexander@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "reflection\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+
